@@ -1,7 +1,6 @@
 # AirwaySymptomDetection
 
 This repository contains related code to the paper below.
-All relevant data is available on [Scripted Rainbow Passage](https://faubox.rrze.uni-erlangen.de/getlink/fi2qBUcwgWyZaQaWqJEqBf3i/Old_Data) and [Lei et al., 2020](https://faubox.rrze.uni-erlangen.de/getlink/fiVW7DbcUiHkJVyAsK3nq47Q/New_Data).
 Data from the COUGHVID crowdsourcing dataset is available on [zenodo](https://zenodo.org/record/4048312#.YcCYJseZNnI).
 
 ## How to use the code
