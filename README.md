@@ -32,7 +32,7 @@ Aditionally, the repository provides code for training an autoencoder architectu
 We provide code to run a genetic algorithm (`neural_networks/GeneticAlgorithm`) to optimize and find a low-size, accurate deep neural network architecture. 
 
 
-## Genetic Algorithm model's performance on unseen data andlearning capabilities
+## Genetic Algorithm model's performance on unseen data and learning capabilities
 
 In `analysis`, you find two Jupyter notebooks for evaluating the Objective 2 model, which was determined using the Genetic Algorithm. 
 
