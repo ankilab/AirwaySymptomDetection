@@ -10,7 +10,8 @@ To use the code, you need a Python installation together with relevant libraries
 
 ## Training deep neural networks
 
-We provide code to train several deep neural network architectures (`neural_networks`), e.g., ResNet, EfficientNet or RNNs. In `analysis`, you find a Jupyter notebook for evaluating the trained models.
+We provide code to train several deep neural network architectures (`neural_networks`), e.g., ResNet, EfficientNet or RNNs. In `analysis`, you find a Jupyter notebook for evaluating the trained models. The file `neural_neworks/params.json` offers the possibility to specify various hyperparameters, especially with regard to the preprocessing of the data.
+
 Aditionally, the repository provides code for training an autoencoder architecture (`neural_networks`) for converting from microphone-acoustic to mechano-acoustic Mel-spectrograms.
 
 ## Genetic algorithm
