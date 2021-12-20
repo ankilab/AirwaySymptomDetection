@@ -8,7 +8,17 @@ This repository contains related code to the paper below.
 To use the code, you need a Python installation together with relevant libraries (librosa, numpy, pandas, flammkuchen, scikit-learn, tensorflow).
 
 
-## Training deep neural networks
+## Overview 
+
+![image](https://user-images.githubusercontent.com/62075292/146793807-ed3e3173-0bb3-438b-b9a1-b74315d47b60.png)
+
+
+## Data preprocessing (Dataset creation)
+
+Data preprocessing can be found in `neural_networks/src/dataloader.py`. Part of it is generating Mel-spectrograms from 1-D microphone-acoustic and mechano-acoustic data.
+
+
+## Training deep neural networks (DNN mining)
 
 We provide code to train several deep neural network architectures (`neural_networks`), e.g., ResNet, EfficientNet or RNNs. In `analysis`, you find a Jupyter notebook for evaluating the trained models. 
 
@@ -17,12 +27,12 @@ The file `neural_neworks/params.json` offers the possibility to specify various 
 Aditionally, the repository provides code for training an autoencoder architecture (`neural_networks`) for converting from microphone-acoustic to mechano-acoustic Mel-spectrograms.
 
 
-## Genetic algorithm
+## Evolutionary optimization for wearable deployment
 
 We provide code to run a genetic algorithm (`neural_networks/GeneticAlgorithm`) to optimize and find a low-size, accurate deep neural network architecture. 
 
 
-## Evaluate Genetic Algorithm model's performance on more unseen data
+## Genetic Algorithm model's performance on unseen data andlearning capabilities
 
 In `analysis`, you find two Jupyter notebooks for evaluating the Objective 2 model, which was determined using the Genetic Algorithm. 
 
@@ -31,7 +41,7 @@ Used datasets:
 * [COUGHVID crowdsourcing dataset](https://zenodo.org/record/4048312#.YcCYJseZNnI) - `predict-cough-database.ipynb`
 
 
-## Explainable AI
+## Explainable AI for mining AI decisions
 
 In `analysis`, you find Jupyter notebooks for visualizing the class activation maps and results from occlusion experiments.
 
