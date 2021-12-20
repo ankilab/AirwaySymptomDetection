@@ -1,0 +1,13 @@
+*.ipynb_checkpoints/
+*.png
+.png
+*.pyc
+.pyc
+*.idea
+*__pycache__/
+__pycache__/
+GA_*
+/Data
+*/Results*
+*.csv
+*.xlsx
