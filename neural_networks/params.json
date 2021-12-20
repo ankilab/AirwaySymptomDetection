@@ -1,0 +1,17 @@
+{
+  "data_dir": "D:\\Rene\\CoughAI\\Data\\Old_Data\\",
+  "label_dir": "D:\\Rene\\CoughAI\\Data\\Old_Data\\Labeled_5classes\\",
+  "signal_type": "NSA",
+
+  "train_data": ["P1_1", "P1_2", "P1_3", "P2_1", "P2_2", "P2_3", "P3_1", "P3_2", "P3_3",
+                "P4_1", "P4_2", "P4_3"],
+  "val_data": ["P5_1", "P5_2", "P5_3"],
+  "test_data": ["P6_1", "P6_2", "P6_3"],
+
+  "sample_length": 22050,
+  "window_shift": 4410,
+
+  "n_mels": 64,
+  "n_fft": 1024,
+  "hop_length": 64
+}
