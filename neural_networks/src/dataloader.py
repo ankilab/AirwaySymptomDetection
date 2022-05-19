@@ -262,7 +262,7 @@ class DataLoader:
 
             # load 1-D audio signals and annotations
             data, sr = librosa.load(os.path.join(path, str(self.signal_type), file), sr=44100)
-            annotations = fl.load(os.path.join(path, 'Labeled', file[:-4:]) + '.coughai')
+            annotations = fl.load(os.path.join(path, 'Annotations', file[:-4:]) + '.coughai')
 
             # create all Mel-spectrograms
             images, labels = self.__get_all_spectrograms(data, sr, annotations, without_no_event=without_no_event)
