@@ -1,6 +1,6 @@
 {
   "data_dir": "D:\\Rene\\CoughAI\\Data\\Old_Data\\",
-  "label_dir": "D:\\Rene\\CoughAI\\Data\\Old_Data\\Labeled_5classes\\",
+  "label_dir": "D:\\Rene\\CoughAI\\Data\\Old_Data\\Annotations_5classes\\",
   "signal_type": "NSA",
 
   "train_data": ["P1_1", "P1_2", "P1_3", "P2_1", "P2_2", "P2_3", "P3_1", "P3_2", "P3_3",
